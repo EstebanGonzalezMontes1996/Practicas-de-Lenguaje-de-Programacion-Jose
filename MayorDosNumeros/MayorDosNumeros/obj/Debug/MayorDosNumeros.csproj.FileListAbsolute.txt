@@ -1,0 +1,7 @@
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\bin\Debug\MayorDosNumeros.exe.config
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\bin\Debug\MayorDosNumeros.exe
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\bin\Debug\MayorDosNumeros.pdb
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\obj\Debug\MayorDosNumeros.csproj.AssemblyReference.cache
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\obj\Debug\MayorDosNumeros.csproj.CoreCompileInputs.cache
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\obj\Debug\MayorDosNumeros.exe
+C:\Users\PC14\source\repos\MayorDosNumeros\MayorDosNumeros\obj\Debug\MayorDosNumeros.pdb
