@@ -1,0 +1,7 @@
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\bin\Debug\CadenaTexto.exe.config
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\bin\Debug\CadenaTexto.exe
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\bin\Debug\CadenaTexto.pdb
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\obj\Debug\CadenaTexto.csproj.AssemblyReference.cache
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\obj\Debug\CadenaTexto.csproj.CoreCompileInputs.cache
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\obj\Debug\CadenaTexto.exe
+C:\Users\Esteban\source\repos\CadenaTexto\CadenaTexto\obj\Debug\CadenaTexto.pdb
