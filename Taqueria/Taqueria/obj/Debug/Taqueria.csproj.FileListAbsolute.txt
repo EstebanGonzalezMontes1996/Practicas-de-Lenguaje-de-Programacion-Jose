@@ -1,0 +1,7 @@
+C:\Users\PC14\source\repos\Taqueria\Taqueria\bin\Debug\Taqueria.exe.config
+C:\Users\PC14\source\repos\Taqueria\Taqueria\bin\Debug\Taqueria.exe
+C:\Users\PC14\source\repos\Taqueria\Taqueria\bin\Debug\Taqueria.pdb
+C:\Users\PC14\source\repos\Taqueria\Taqueria\obj\Debug\Taqueria.csproj.AssemblyReference.cache
+C:\Users\PC14\source\repos\Taqueria\Taqueria\obj\Debug\Taqueria.csproj.CoreCompileInputs.cache
+C:\Users\PC14\source\repos\Taqueria\Taqueria\obj\Debug\Taqueria.exe
+C:\Users\PC14\source\repos\Taqueria\Taqueria\obj\Debug\Taqueria.pdb
