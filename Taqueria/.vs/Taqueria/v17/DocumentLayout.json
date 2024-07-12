@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC14\\source\\repos\\Taqueria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9458AF7-DFCE-4F78-B6E1-289DD27621FD}|Taqueria\\Taqueria.csproj|c:\\users\\pc14\\source\\repos\\taqueria\\taqueria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9458AF7-DFCE-4F78-B6E1-289DD27621FD}|Taqueria\\Taqueria.csproj|solutionrelative:taqueria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC14\\source\\repos\\Taqueria\\Taqueria\\Program.cs",
+              "RelativeDocumentMoniker": "Taqueria\\Program.cs",
+              "ToolTip": "C:\\Users\\PC14\\source\\repos\\Taqueria\\Taqueria\\Program.cs",
+              "RelativeToolTip": "Taqueria\\Program.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwE4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T01:33:06.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
