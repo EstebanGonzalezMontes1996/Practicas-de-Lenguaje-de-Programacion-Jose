@@ -1,0 +1,14 @@
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\bin\Debug\net8.0\InterfazEjemplo.exe
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\bin\Debug\net8.0\InterfazEjemplo.deps.json
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\bin\Debug\net8.0\InterfazEjemplo.runtimeconfig.json
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\bin\Debug\net8.0\InterfazEjemplo.dll
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\bin\Debug\net8.0\InterfazEjemplo.pdb
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.AssemblyInfoInputs.cache
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.AssemblyInfo.cs
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.csproj.CoreCompileInputs.cache
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.dll
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\refint\InterfazEjemplo.dll
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.pdb
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\InterfazEjemplo.genruntimeconfig.cache
+C:\Users\PC14\source\repos\InterfazEjemplo\InterfazEjemplo\obj\Debug\net8.0\ref\InterfazEjemplo.dll
