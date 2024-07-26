@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
 
 namespace OperacionesAritmeticas
 {
@@ -22,36 +16,30 @@ namespace OperacionesAritmeticas
 
             Console.WriteLine();
 
-            Console.WriteLine("Que operacion quiere Realizar: Suma, Resta, Multiplicacion, Division");
-            string operacion = Console.ReadLine();
-            
+            Console.WriteLine("1.Suma \n2.Resta \n3.Multiplicacion \n4.Division");
             Console.WriteLine();
+            Console.WriteLine("Que operacion quiere Realizar:");
+            int operacion = Convert.ToInt32(Console.ReadLine());
 
-            if (operacion == "Suma")
-            {
-                int suma = x + y;
-                Console.WriteLine("La suma es: " + suma);
-            }
-            else if (operacion == "Resta")
-            {
-                int resta = x - y;
-                Console.WriteLine("La resta es: " + resta);
-            }
-            else if (operacion == "Division")
-            {
-                int division = x / y;
-                Console.WriteLine("La division es: " + division);
-            }
-            else if (operacion == "Multiplicacion")
-            {
-                int multiplicacion = x * y;
-                Console.WriteLine("La multiplicacion es: " + multiplicacion);
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
+            int resultado = Opcion(operacion, x, y);
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("El resultado es: " + resultado);
+
+
             Console.ReadKey();
+        }
+
+        public static int Opcion(int operacion, int x, int y)
+        {
+            switch (operacion)
+            {
+                case 1: return x + y;
+                case 2: return x - y;
+                case 3: return x * y;
+                case 4: return x / y;
+                default: return 0;
+            }
         }
     }
 }
