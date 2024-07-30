@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using RestSharp;
 
-
 namespace Conexion1
 {
     public class Program
@@ -12,10 +11,24 @@ namespace Conexion1
         {
             List<Cuenta> list = GithubApi();
 
-            Console.WriteLine(list[0].login, list[1].id, list[1].node_id, list[1].avatar_urllist[1].gravatar_idlist[1].urllist[1].html_urllist[1].followers_urllist[1].following_urllist[1].gists_urllist[1].starred_urllist[1].subscriptions_urllist[1].organizations_urllist[1].repos_urllist[1].events_urllist[1].received_events_urllist[1].typelist[1].site_adminlist[1].namelist[1].companylist[1].bloglist[1].locationlist[1].emaillist[1].hireablelist[1].biolist[1].twitter_usernamelist[1].public_reposlist[1].public_gistslist[1].followerslist[1].followinglist[1].created_atlist[1].updated_at );
+            //Verifica que la lista tenga almenos un dato
+            if (list.Count > 0)
+            {
+                //Obtiene el primer valor de la lista
+                var cuenta = list[0];
 
+                //Imprime los valores de la lista
+                Console.WriteLine($"Login: {cuenta.login}\n, ID: {cuenta.id}\n , Node ID: {cuenta.node_id}, \n Avatar URL: {cuenta.avatar_url}\n, Gravatar ID: {cuenta.gravatar_id}\n, URL: {cuenta.url}\n, HTML URL: {cuenta.html_url}\n, Followers URL: {cuenta.followers_url}\n, Following URL: {cuenta.following_url}\n, Gists URL: {cuenta.gists_url}\n, Starred URL: {cuenta.starred_url}\n, Subscriptions URL: {cuenta.subscriptions_url}\n, Organizations URL: {cuenta.organizations_url}\n, Repos URL: {cuenta.repos_url}\n, Events URL: {cuenta.events_url}\n, Received Events URL: {cuenta.received_events_url}\n, Type: {cuenta.type}\n, Site Admin: {cuenta.site_admin}\n, Name: {cuenta.name}\n, Company: {cuenta.company}\n, Blog: {cuenta.blog}\n, Location: {cuenta.location}\n, Email: {cuenta.email}\n, Hireable: {cuenta.hireable}\n, Bio: {cuenta.bio}\n, Twitter Username: {cuenta.twitter_username}\n, Public Repos: {cuenta.public_repos}\n, Public Gists: {cuenta.public_gists}\n, Followers: {cuenta.followers}\n, Following: {cuenta.following}\n, Created At: {cuenta.created_at}\n, Updated At: {cuenta.updated_at}\n");
+            }
+            else
+            {
+                Console.WriteLine("No data retrieved from the API.");
+            }
+            Console.ReadKey();  
         }
 
+
+        //Metodo para obtener los datos de la pagina
         public static List<Cuenta> GithubApi()
         {
             try
@@ -23,21 +36,19 @@ namespace Conexion1
                 using (RestClient client = new RestClient("https://api.github.com/users/EstebanGonzalezMontes1996"))
                 {
                     RestRequest request = new RestRequest();
-                    string respuesta;
                     var response = client.Get(request);
-                    respuesta = response.Content;
+                    string respuesta = response.Content;
 
-                    List<Cuenta> salida = JsonConvert.DeserializeObject<List<Cuenta>>(respuesta);
+                    Cuenta cuenta = JsonConvert.DeserializeObject<Cuenta>(respuesta);
+                    List<Cuenta> salida = new List<Cuenta> { cuenta };
 
                     return salida;
                 }
             }
             catch
             {
-                List<Cuenta> salida = new List<Cuenta>();
-                return salida;
+                return new List<Cuenta>();
             }
-
         }
     }
 }
